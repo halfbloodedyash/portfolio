@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash - Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              background: 'var(--background)',
+              foreground: 'var(--foreground)',
+              muted: 'var(--muted)',
+              'muted-foreground': 'var(--muted-foreground)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        --background: #ffffff;
+        --foreground: #09090b;
+        --muted: #f4f4f5;
+        --muted-foreground: #71717a;
+      }
+      .dark {
+        --background: #09090b;
+        --foreground: #fafafa;
+        --muted: #27272a;
+        --muted-foreground: #a1a1aa;
+      }
+      body {
+        background-color: var(--background);
+        color: var(--foreground);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+    "tailwind-merge": "https://aistudiocdn.com/tailwind-merge@^2.3.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.2.10",
+    "class-variance-authority": "https://aistudiocdn.com/class-variance-authority@^0.7.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

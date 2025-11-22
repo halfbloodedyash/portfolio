@@ -1,0 +1,5 @@
+{
+  "name": "Minimalist Developer Portfolio",
+  "description": "A clean, modular, developer portfolio featuring a floating dock, project showcase, and resume sections built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
